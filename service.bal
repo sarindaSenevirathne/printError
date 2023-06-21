@@ -2,7 +2,7 @@ import ballerina/http;
 //import ballerina/log;
 
 
-service / on new http:Listener(8001) {
+service / on new http:Listener(9090) {
 
 
     resource function get greeting() returns string|error {
